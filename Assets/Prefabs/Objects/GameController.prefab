@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3970133473714340546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3970133473714340556}
+  - component: {fileID: 1561676160033733883}
+  - component: {fileID: 7441605315108749067}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3970133473714340556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3970133473714340546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.729867, y: 4.47, z: -1.7587996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1561676160033733883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3970133473714340546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6efad2761e7e94c469e34ba2b62349bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterRemainingUpdate: {fileID: 0}
+  goldUpdate: {fileID: 0}
+  playerDamageIndicator: {fileID: 5751053174845148101, guid: 593a17f5e1552194cb9c27fcb73cf134, type: 3}
+  monsterDamageIndicator: {fileID: 4926651614271873156, guid: b8de5b46e11805a498f18b6b78fe2ef9, type: 3}
+  expIndicator: {fileID: 4926651614271873156, guid: 966a9361b72199240aa31711b04b2dbd, type: 3}
+  snakeMonster: {fileID: 1868869505736136806, guid: 89ee14caeb77b17478a16937f4140169, type: 3}
+  player: {fileID: 0}
+  hitParticle: {fileID: 1899925861352835959, guid: 92b553ec455e17d4b9321fe4e77964e9, type: 3}
+  deadParticle: {fileID: 2339769270762709486, guid: e10de6fed578b5a47a2f65195fe95c30, type: 3}
+--- !u!114 &7441605315108749067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3970133473714340546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d48898b90849f46a669e7bdaeba719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrain1: {fileID: 2918628865729249000, guid: d442b051e1e33084493b86570fe0bc29, type: 3}
+  colliderBlock: {fileID: 0}
+  maxPlatforms: 10
+  monsterRemainingUpdate: {fileID: 0}
